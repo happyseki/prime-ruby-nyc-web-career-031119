@@ -6,10 +6,9 @@ def prime?(number)
   while i < number 
   if  number % i == 0 
    return false
-   else 
-   return true
   end
     i += 1 
   end
+    return true
 end
 # Add  code here!
